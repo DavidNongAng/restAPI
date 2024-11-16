@@ -1,0 +1,22 @@
+What is a REST API?
+
+- REST API stands for Representational State Transfer Application Programming Interface. 
+- It is a way for different applications to communicate with each other over the internet. 
+- It allows you to perform operations on resources through standardized HTTP methods such as Create, Read, Update and Delete. (CRUD methods).
+
+Key features:
+- Stateless: The server doesn't keep any information about the client between requests. Each request sent from the client to the server must contain all the data the server needs to process the request and respond. The server doesn't "remember" anything about the client between requests.
+
+- Resource-Based: Resources (users, jobs) are represented with URLs (/api/users, or /api/jobs).
+
+- HTTP Methods: It uses standardized HTTP methods to perform actions on resources. (GET, POST, PUT, DELETE).
+
+- JSON Format: Data is in JSON format which is easy to read and write.
+
+Create: HTTP POST /api/devices + payload
+Read:   HTTP GET /api/devices 
+Update: HTTP PUIT /api/devices/1 + payload
+Delete: HTTP DELETE /api/devices/1
+
+
+
